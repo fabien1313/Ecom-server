@@ -51,7 +51,7 @@ THEN I am able to successfully create, update, and delete data in my database
   <hr>
 
   ## Usage
-  Walkthrough Video: https://drive.google.com/file/d/1x-dK1BIHrkYpok_SdKNtL4-opPPkad1n/view  
+  Walkthrough Video: https://drive.google.com/file/d/1x-dK1BIHrkYpok_SdKNtL4-opPPkad1n/view 
 
   Initialize the program by entering (npm start) in the command line or terminal. Once you do that, you will be prompted with a menu which you can navigate with your arrows keys to view, add, update, and delete.
 
@@ -60,6 +60,28 @@ THEN I am able to successfully create, update, and delete data in my database
 
   - USE the database:
   <img src="images/ecommerce_db2.png" width="600" alt="Database creation">
+
+  - Seed the database (npm run seed):
+   <img src="images/ecommerce_db3.png" width="600" alt="Seeding database">
+  - Start server (npm start):
+  <img src="images/ecommerce_db4.png" width="600" alt="Initializing server">
+
+  - Insomnia GET all route:
+   <img src="images/ecommerce_db5.png" width="600" alt="Insomnia GET all">
+
+  - Insomnia GET :id route:
+  <img src="images/ecommerce_db6.png" width="600" alt="Insomnia GET :id">
+
+  - Insomnia POST add route:
+  <img src="images/ecommerce_db7.png" width="600" alt="Insomnia POST add">
+
+  - Insomnia PUT update route:
+  <img src="images/ecommerce_db8.png" width="600" alt="Insomnia PUT update">
+
+  - Insomnia DEL delete route:
+  <img src="images/ecommerce_db10.png" width="600" alt="Insomnia DEL delete">
+
+
 
   ## Technologies
  - Node.js (Several Npm Packages: Listed above)
