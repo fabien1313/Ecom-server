@@ -3,9 +3,9 @@
   <hr>
 
   ## Description
-  This repository hosts a Employee Tracker program. Often, a developer must create an interface that allows non-developers the ability to interact and view data stored in a database.
+  This repository hosts an E-commerce Back-end server containing data. As many E-commerce sites have, there are multiple tables containing data on categories, products, and tags.
 
-  Typically, these are referred to as content management system or (CMS). Using this program you can view all departments, all roles, all employees, add a department, add a role, add an employee, and update an employee role.
+  This server has been setup with GET routes for all three sections (categories, products, and tags) and has routes for each id parameter within each table. Each route also has POST, PUT, and DELETE function to assist with making this a fully functional backend server capable of being maintained dynamically for the long term.
 
 **User Story:**<br>
 AS A manager at an internet retail company<br>
@@ -47,13 +47,19 @@ THEN I am able to successfully create, update, and delete data in my database
   - Sequelize 
   - Dotenv
   - Nodemon
+  - Insomnia/browser (Routes)
   <hr>
 
   ## Usage
-  Walkthrough Video: https://drive.google.com/file/d/1wnFY37uvSqAYk54bFIt9aX37iBMjFTc-/view 
+  Walkthrough Video: https://drive.google.com/file/d/1x-dK1BIHrkYpok_SdKNtL4-opPPkad1n/view  
 
   Initialize the program by entering (npm start) in the command line or terminal. Once you do that, you will be prompted with a menu which you can navigate with your arrows keys to view, add, update, and delete.
-  <hr>
+
+  - Creating the database:
+  <img src="images/ecommerce_db.png" width="600" alt="Database creation">
+
+  - USE the database:
+  <img src="images/ecommerce_db2.png" width="600" alt="Database creation">
 
   ## Technologies
  - Node.js (Several Npm Packages: Listed above)
@@ -67,7 +73,7 @@ James Kelly @ https://www.linkedin.com/in/james-kelly-b93a94150/ <br>
 MySQL2 @ https://www.npmjs.com/package/mysql2#first-query <br>
 NPM @ https://www.npmjs.com/package/inquirer <br>
 Dotenv @ https://www.npmjs.com/package/dotenv <br>
-Console.table @ https://www.npmjs.com/package/console.table
+
 
 
  <hr>
